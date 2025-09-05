@@ -102,6 +102,12 @@
 			<version>5.1.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- For Email Notification -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
